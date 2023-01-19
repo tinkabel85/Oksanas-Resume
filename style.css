@@ -10,7 +10,7 @@ body {
 	height: 100%;
 	width: 70%;
 	margin: 7px auto;
-	padding: 20px 20px 0;
+	/* padding: 20px 20px 0; */
 	border: 1px solid rgb(141, 138, 138);
 	background-color: rgb(251, 251, 251);
 	box-shadow: 1px 1px 4px rgb(160, 155, 155);
@@ -18,10 +18,9 @@ body {
 }
 
 .container__header {
-	position: sticky;
 	text-align: center;
-	padding: 10px;
-	margin-bottom: 10px;
+	padding: 15px;
+	margin: 15px;
 	background-color: #f2f2f2;
 	animation: colorAnimation ease 3s;
 	background-color: #f6f2f4;
@@ -33,7 +32,48 @@ body {
 
 .header__contacts__item {
 	margin-right: 4px;
-    top: 0.1em;
-    position: relative;
+	top: 0.1em;
+	position: relative;
 }
 
+.wrapper {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#footer {
+	background: rgb(126, 125, 125);
+	color: #ded9d9;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 15px;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer__media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.footer__icon {
+    color: #a9a9a9;
+    font-size: 1.6em;
+    margin-right: 10px;
+}
+
+.footer__copyright {
+    margin: auto 0;
+    font-size: 14px;
+}
