@@ -10,6 +10,7 @@ body {
 a {
 	text-decoration: none;
 	color: #333;
+    font-weight: 600;
 }
 
 a:hover {
@@ -78,7 +79,7 @@ a:hover {
 	border-collapse: collapse;
 	border: 1px solid #ccc;
 	margin-bottom: 10px;
-    width: 100%;
+	width: 100%;
 }
 th,
 td {
@@ -87,9 +88,15 @@ td {
 	text-align: left;
 }
 td {
-    min-width: 10rem;
-    text-align: justify;
+	min-width: 10rem;
+	text-align: justify;
 }
+
+.section__projects {
+	text-align: left;
+    line-height: 1.5rem;
+}
+
 #footer {
 	background: rgb(126, 125, 125);
 	color: #ded9d9;
