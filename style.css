@@ -78,6 +78,7 @@ a:hover {
 	border-collapse: collapse;
 	border: 1px solid #ccc;
 	margin-bottom: 10px;
+    width: 100%;
 }
 th,
 td {
