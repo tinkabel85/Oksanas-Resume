@@ -224,7 +224,9 @@
                 </section>
             </div>
             <footer id="footer">
-                    <div class="footer__copyright">Copyright &#169; 2023 Oksana Pashkovska</div>
+                    <div id="copyright" class="footer__copyright">Copyright &#169; 
+                    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                        Oksana Pashkovska</div>
                     <div class="footer__media">
                         <a class="footer__icon" href="https://www.linkedin.com/in/oksanapashkovska/">
                             <i class="bx bxl-linkedin bx-burst-hover bx-sm"></i>
